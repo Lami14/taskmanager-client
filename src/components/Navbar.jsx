@@ -21,5 +21,7 @@ const Navbar = () => {
     </div>
   );
 };
+<Link to="/dashboard" className="mr-4">Dashboard</Link>
+<Link to="/" className="mr-4">Tasks</Link>
 
 export default Navbar;
